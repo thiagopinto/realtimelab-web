@@ -1,0 +1,21 @@
+@reference "../../index.css";
+
+.chat-container {
+  @apply bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col h-[400px];
+}
+
+.chat-header {
+  @apply border-b border-slate-800 pb-3 mb-4;
+}
+
+.chat-title {
+  @apply font-medium text-cyan-400;
+}
+
+.chat-subtitle {
+  @apply text-xs text-slate-400 mt-1;
+}
+
+.chat-placeholder {
+  @apply flex-1 flex items-center justify-center border border-dashed border-slate-800 rounded-lg p-6 text-slate-500 text-sm;
+}

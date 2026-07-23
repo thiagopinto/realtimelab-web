@@ -1,0 +1,21 @@
+@reference "../../index.css";
+
+.alerts-container {
+  @apply bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col h-[400px];
+}
+
+.alerts-header {
+  @apply border-b border-slate-800 pb-3 mb-4;
+}
+
+.alerts-title {
+  @apply font-medium text-rose-400;
+}
+
+.alerts-subtitle {
+  @apply text-xs text-slate-400 mt-1;
+}
+
+.alerts-placeholder {
+  @apply flex-1 flex items-center justify-center border border-dashed border-slate-800 rounded-lg p-6 text-slate-500 text-sm;
+}
